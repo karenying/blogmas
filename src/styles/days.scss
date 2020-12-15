@@ -1,4 +1,7 @@
 .days {
+  height: 80px;
+  width: 80px;
+
   svg,
   img {
     -webkit-filter: drop-shadow(5px 5px 2px black);
@@ -7,13 +10,11 @@
 }
 
 .Two {
-  height: 80px;
-  width: 80px;
   position: relative;
 
   img {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
   }
 
   .menu,
@@ -28,6 +29,30 @@
 
   .close {
     bottom: 0;
+    right: 0;
+  }
+}
+
+.Three {
+  position: relative;
+
+  img {
+    height: 37px;
+    width: 37px;
+  }
+
+  .vscode,
+  .scissors {
+    position: absolute;
+  }
+
+  .vscode {
+    bottom: 15px;
+    left: 0;
+  }
+
+  .scissors {
+    top: 15px;
     right: 0;
   }
 }
