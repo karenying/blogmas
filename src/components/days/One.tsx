@@ -3,7 +3,7 @@ import '../../styles/days.scss';
 
 const One = () => {
   return (
-    <div className='days'>
+    <div className='full-image days'>
       <img src={image} />
     </div>
   );

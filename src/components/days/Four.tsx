@@ -4,7 +4,7 @@ import '../../styles/days.scss';
 
 const Four = () => {
   return (
-    <div className='days Four'>
+    <div className='days full-image'>
       <img src={julia} />
     </div>
   );
