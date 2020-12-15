@@ -1,5 +1,5 @@
 import Day from './components/Day';
-import Three from './components/days/Three';
+import Four from './components/days/Four';
 import { PostType } from './utils/PostType';
 
 import './App.scss';
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <Day
-        graphic={Three}
+        graphic={Four}
         title='Bash alias for ISO 8601 formatted time'
         type={PostType.FIX}
         day={1}

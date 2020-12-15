@@ -6,8 +6,8 @@
   border-radius: 5px;
   border: 1px solid $color-white-almost;
   position: relative;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5),
-    inset 5px 5px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 
   &-preview,
@@ -46,7 +46,7 @@
     }
 
     &-title {
-      color: $color-gray-dark;
+      color: black;
       padding: 0px 5px;
       font-family: 'Varela Round';
     }
