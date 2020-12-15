@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Day from './components/Day';
+import One from './components/days/One';
+import { PostType } from './utils/PostType';
+
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Day
+        graphic={One}
+        title='Bash alias for ISO 8601 formatted time'
+        type={PostType.FIX}
+        day={1}
+        link='%EF%B8%8F-121-bash-alias-for-iso-8601-formatted-time'
+      />
     </div>
   );
 }
