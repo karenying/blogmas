@@ -3,13 +3,11 @@ import vscode from '../../assets/vscode.svg';
 
 import '../../styles/days.scss';
 
-const Sixteen = () => {
-  return (
-    <div className='days Sixteen'>
-      <img src={vscode} className='vscode' alt='vscode logo' />
-      <img src={spell_check} className='spell_check' alt='spell check' />
-    </div>
-  );
-};
+const Sixteen = () => (
+  <div className='days Sixteen'>
+    <img src={vscode} className='vscode' alt='vscode logo' />
+    <img src={spell_check} className='spell_check' alt='spell check' />
+  </div>
+);
 
 export default Sixteen;
