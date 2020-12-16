@@ -1,19 +1,34 @@
 import Day from './components/Day';
-import Sixteen from './components/days/Sixteen';
-import { PostType } from './utils/PostType';
+import DaysData from './utils/DaysData';
+import { DAYS_OF_WEEK } from './utils/constants';
 
 import './App.scss';
 
 function App() {
   return (
     <div className='App'>
-      <Day
-        graphic={Sixteen}
-        title='Bash alias for ISO 8601 formatted time'
-        type={PostType.FIX}
-        day={1}
-        link='%EF%B8%8F-121-bash-alias-for-iso-8601-formatted-time'
-      />
+      <div className='title'>
+        bl
+        <span className='dark-pink-text'>o</span>
+        gm
+        <span className='blue-text'>a</span>s 2020
+      </div>
+      <div className='subtitle'>
+        Miniposts every day of December until Christmas 🎊
+      </div>
+      <div className='message'>
+        Press and hold over day to see details. Click to see post.
+      </div>
+      <div className='calendar'>
+        {DAYS_OF_WEEK.map((day) => (
+          <div className='day-of-week'>{day}</div>
+        ))}
+        <div className='empty'></div>
+        <div className='empty'></div>
+        {DaysData.map((data, i) => (
+          <Day {...data} day={i + 1} />
+        ))}
+      </div>
     </div>
   );
 }

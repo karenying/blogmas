@@ -3,22 +3,22 @@ import { PostType } from '../utils/PostType';
 
 import '../styles/Day.scss';
 
-interface Props {
-  graphic: FC;
+export interface DaysProps {
+  preview: FC;
   type: PostType;
   title: string;
-  day: number;
   link: string;
+  day?: number;
 }
 
 const baseURL = 'https://blog.karenying.com/posts/blogmas-2020#';
 
-const Day: FC<Props> = (props) => {
-  const { graphic: Comp, type, title, day, link } = props;
+const Day: FC<DaysProps> = (props) => {
+  const { preview: Graphic, type, title, day, link } = props;
   return (
     <div className='Day'>
       <div className='Day-preview'>
-        <Comp />
+        <Graphic />
       </div>
       <a href={baseURL + link} target='_blank'>
         <div className='Day-details'>
