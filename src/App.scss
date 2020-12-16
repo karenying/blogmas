@@ -15,11 +15,23 @@
   color: $color-pink-dark;
 }
 
+.yellow-text {
+  color: $color-yellow;
+}
+
+.light-pink-text {
+  color: $color-pink-light;
+}
+
 .title {
   color: $color-white-almost;
   font-family: 'Varela Round';
   margin-bottom: 20px;
   font-size: 50px;
+
+  &-year {
+    font-family: 'Ubuntu Mono';
+  }
 }
 
 .calendar {
@@ -39,7 +51,7 @@
   width: 100px;
   margin: 6px;
   font-family: 'Ubuntu Mono';
-  color: $color-yellow;
+  color: $color-white-almost;
   text-align: center;
   font-weight: bold;
 }

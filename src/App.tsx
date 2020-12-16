@@ -11,7 +11,11 @@ function App() {
         bl
         <span className='dark-pink-text'>o</span>
         gm
-        <span className='blue-text'>a</span>s 2020
+        <span className='blue-text'>a</span>s{' '}
+        <span className='title-year'>
+          2<span className='light-pink-text'>0</span>2
+          <span className='yellow-text'>0</span>
+        </span>
       </div>
       <div className='subtitle'>
         Miniposts every day of December until Christmas 🎊

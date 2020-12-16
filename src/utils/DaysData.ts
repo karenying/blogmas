@@ -111,7 +111,7 @@ const DaysData: DaysProps[] = [
   },
   {
     preview: Sixteen,
-    link: '-%EF%B8%8F-1216-vscode-spell-check',
+    link: '%EF%B8%8F-1216-vscode-spell-check',
     type: PostType.FIX,
     title: 'VSCode spell check',
   },
