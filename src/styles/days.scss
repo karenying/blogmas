@@ -2,11 +2,11 @@
   height: 85px;
   width: 85px;
 
-  svg,
+  /*   svg,
   img {
     -webkit-filter: drop-shadow(5px 5px 2px black);
     filter: drop-shadow(5px 5px 2px black);
-  }
+  } */
 }
 
 .full-image {
@@ -74,6 +74,8 @@
 
   img {
     width: 65px;
+    -webkit-filter: drop-shadow(5px 5px 2px black);
+    filter: drop-shadow(5px 5px 2px black);
   }
 }
 
@@ -83,6 +85,8 @@
   .home,
   .backtotop2 {
     position: absolute;
+    -webkit-filter: drop-shadow(5px 5px 2px black);
+    filter: drop-shadow(5px 5px 2px black);
   }
 
   .home {
