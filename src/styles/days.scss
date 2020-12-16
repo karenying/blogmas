@@ -149,3 +149,29 @@
     right: 8px;
   }
 }
+
+.Seventeen {
+  position: relative;
+
+  img {
+    height: 37px;
+    width: 37px;
+  }
+
+  .round,
+  .square {
+    position: absolute;
+  }
+
+  .square {
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .round {
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

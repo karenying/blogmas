@@ -22,7 +22,7 @@ const App = () => (
     </div>
 
     <div className='message'>
-      Press and hold over day to see details. Click to see post.
+      Press and hold over day to see details. Tap to see post.
     </div>
 
     <div className='calendar'>

@@ -14,6 +14,7 @@ import Thirteen from '../components/days/Thirteen';
 import Fourteen from '../components/days/Fourteen';
 import Fifteen from '../components/days/Fifteen';
 import Sixteen from '../components/days/Sixteen';
+import Seventeen from '../components/days/Seventeen';
 
 import { PostType } from './PostType';
 import { DaysProps } from '../components/Day';
@@ -114,6 +115,12 @@ const DaysData: DaysProps[] = [
     link: '%EF%B8%8F-1216-vscode-spell-check',
     type: PostType.FIX,
     title: 'VSCode spell check',
+  },
+  {
+    preview: Seventeen,
+    link: '-1217-round-profile-pics',
+    type: PostType.OPINION,
+    title: 'Round profile pics',
   },
 ];
 
