@@ -5,7 +5,7 @@ import '../../styles/days.scss';
 const Eight = () => {
   return (
     <div className='days full-image'>
-      <img src={neuralnet} />
+      <img src={neuralnet} alt='neural net' />
     </div>
   );
 };

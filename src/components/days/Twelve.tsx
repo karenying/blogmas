@@ -6,8 +6,8 @@ import '../../styles/days.scss';
 const Twelve = () => {
   return (
     <div className='days Twelve'>
-      <img src={backtotop2} className='backtotop2' />
-      <img src={home} className='home' />
+      <img src={backtotop2} className='backtotop2' alt='back to top button' />
+      <img src={home} className='home' alt='home' />
     </div>
   );
 };

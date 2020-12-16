@@ -5,7 +5,7 @@ import '../../styles/days.scss';
 const Fourteen = () => {
   return (
     <div className='days full-image'>
-      <img src={darkmode} />
+      <img src={darkmode} alt='darkmode toggle' />
     </div>
   );
 };

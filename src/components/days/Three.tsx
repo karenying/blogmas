@@ -6,8 +6,8 @@ import '../../styles/days.scss';
 const Three = () => {
   return (
     <div className='days Three'>
-      <img src={vscode} className='vscode' />
-      <img src={scissors} className='scissors' />
+      <img src={vscode} className='vscode' alt='vscode logo' />
+      <img src={scissors} className='scissors' alt='scissors' />
     </div>
   );
 };

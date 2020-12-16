@@ -6,8 +6,8 @@ import '../../styles/days.scss';
 const Thirteen = () => {
   return (
     <div className='days Thirteen'>
-      <img src={gatsby} className='gatsby' />
-      <img src={clock} className='clock' />
+      <img src={gatsby} className='gatsby' alt='gatsby logo' />
+      <img src={clock} className='clock' alt='clock' />
     </div>
   );
 };

@@ -1,10 +1,10 @@
-import image from '../../assets/iso_date.svg';
+import iso_date from '../../assets/iso_date.svg';
 import '../../styles/days.scss';
 
 const One = () => {
   return (
     <div className='full-image days'>
-      <img src={image} />
+      <img src={iso_date} alt='iso_date' />
     </div>
   );
 };

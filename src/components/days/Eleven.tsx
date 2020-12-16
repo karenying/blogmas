@@ -5,7 +5,7 @@ import '../../styles/days.scss';
 const Eleven = () => {
   return (
     <div className='days Eleven'>
-      <img src={backtotop} />
+      <img src={backtotop} alt='back to top button' />
     </div>
   );
 };

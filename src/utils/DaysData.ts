@@ -105,15 +105,15 @@ const DaysData: DaysProps[] = [
   },
   {
     preview: Fifteen,
-    link: '-124-leetcoding-in-julia',
-    type: PostType.NEW,
-    title: 'Leetcoding in Julia',
-  },
-  {
-    preview: Sixteen,
     link: '-1215-styled-components',
     type: PostType.NEW,
     title: 'styled-components',
+  },
+  {
+    preview: Sixteen,
+    link: '-%EF%B8%8F-1216-vscode-spell-check',
+    type: PostType.FIX,
+    title: 'VSCode spell check',
   },
 ];
 

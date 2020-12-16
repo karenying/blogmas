@@ -5,7 +5,7 @@ import '../../styles/days.scss';
 const Fifteen = () => {
   return (
     <div className='days full-image'>
-      <img src={styled} />
+      <img src={styled} alt='styled component' />
     </div>
   );
 };

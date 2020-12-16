@@ -20,7 +20,7 @@ const Day: FC<DaysProps> = (props) => {
       <div className='Day-preview'>
         <Graphic />
       </div>
-      <a href={baseURL + link} target='_blank'>
+      <a href={baseURL + link} target='_blank' rel='noreferrer'>
         <div className='Day-details'>
           <div className='Day-details-day'>{day}</div>
           <div className='Day-details-title'>{title}</div>
