@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .blue-text {
@@ -48,7 +48,7 @@
 }
 
 .day-of-week {
-  width: 125px;
+  width: 127px;
   margin: 6px;
   font-family: 'Ubuntu Mono';
   color: $color-white-almost;
