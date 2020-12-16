@@ -29,8 +29,10 @@ const App = () => (
       {DAYS_OF_WEEK.map((day) => (
         <div className='day-of-week'>{day}</div>
       ))}
+
       <div className='empty'></div>
       <div className='empty'></div>
+
       {DaysData.map((data, i) => (
         <Day {...data} day={i + 1} />
       ))}

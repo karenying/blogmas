@@ -1,4 +1,4 @@
-import julia from '../../assets/julia.png';
+import julia from '../../assets/julia.svg';
 
 import '../../styles/days.scss';
 

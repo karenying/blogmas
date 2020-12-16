@@ -1,6 +1,6 @@
 .days {
-  height: 85px;
-  width: 85px;
+  height: 100px;
+  width: 100px;
 }
 
 .full-image {
@@ -9,17 +9,18 @@
   justify-content: center;
 
   img {
-    width: 85px;
+    width: 100px;
+  }
+}
+
+.rounded {
+  img {
+    border-radius: 5px;
   }
 }
 
 .Two {
   position: relative;
-
-  img {
-    height: 35px;
-    width: 35px;
-  }
 
   .menu,
   .close {
@@ -29,11 +30,15 @@
   .menu {
     top: 0;
     left: 0;
+    height: 45px;
+    width: 45px;
   }
 
   .close {
     bottom: 0;
     right: 0;
+    height: 40px;
+    width: 40px;
   }
 }
 
@@ -41,8 +46,8 @@
   position: relative;
 
   img {
-    height: 37px;
-    width: 37px;
+    height: 45px;
+    width: 45px;
   }
 
   .vscode,
@@ -51,12 +56,12 @@
   }
 
   .vscode {
-    bottom: 15px;
+    bottom: 10px;
     left: 0;
   }
 
   .scissors {
-    top: 15px;
+    top: 10px;
     right: 0;
   }
 }
@@ -67,7 +72,7 @@
   justify-content: center;
 
   img {
-    width: 65px;
+    width: 75px;
     -webkit-filter: drop-shadow(5px 5px 2px black);
     filter: drop-shadow(5px 5px 2px black);
   }
@@ -87,13 +92,13 @@
     top: 5px;
     left: 50%;
     transform: translateX(-50%);
-    width: 75px;
+    width: 100px;
   }
 
   .backtotop2 {
     bottom: 3px;
     right: 3px;
-    width: 25px;
+    width: 35px;
   }
 }
 
@@ -101,8 +106,8 @@
   position: relative;
 
   img {
-    height: 37px;
-    width: 37px;
+    height: 45px;
+    width: 45px;
   }
 
   .gatsby,
@@ -125,8 +130,8 @@
   position: relative;
 
   img {
-    height: 37px;
-    width: 37px;
+    height: 45px;
+    width: 45px;
   }
 
   .vscode,

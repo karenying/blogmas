@@ -1,11 +1,11 @@
-import spotify from '../../assets/spotify.png';
+import spotify from '../../assets/spotify.jpeg';
 
 import '../../styles/days.scss';
 
-const Eight = () => (
-  <div className='days full-image'>
+const Nine = () => (
+  <div className='days full-image rounded'>
     <img src={spotify} alt='spotify wrapped' />
   </div>
 );
 
-export default Eight;
+export default Nine;

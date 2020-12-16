@@ -35,20 +35,20 @@
 }
 
 .calendar {
-  max-width: 804px;
+  max-width: 973px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
 .empty {
-  width: 100px;
-  height: 100px;
+  width: 127px;
+  height: 127px;
   margin: 6px;
 }
 
 .day-of-week {
-  width: 100px;
+  width: 125px;
   margin: 6px;
   font-family: 'Ubuntu Mono';
   color: $color-white-almost;

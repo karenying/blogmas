@@ -1,5 +1,5 @@
-import scissors from '../../assets/scissors.svg';
-import vscode from '../../assets/vscode.svg';
+import scissors from '../../assets/scissors.png';
+import vscode from '../../assets/vscode.png';
 
 import '../../styles/days.scss';
 

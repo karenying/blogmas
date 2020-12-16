@@ -1,5 +1,5 @@
 import spell_check from '../../assets/spell_check.svg';
-import vscode from '../../assets/vscode.svg';
+import vscode from '../../assets/vscode.png';
 
 import '../../styles/days.scss';
 
