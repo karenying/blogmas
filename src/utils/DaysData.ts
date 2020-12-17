@@ -15,6 +15,7 @@ import Fourteen from '../components/days/Fourteen';
 import Fifteen from '../components/days/Fifteen';
 import Sixteen from '../components/days/Sixteen';
 import Seventeen from '../components/days/Seventeen';
+import Eighteen from '../components/days/Eighteen';
 
 import { PostType } from './PostType';
 import { DaysProps } from '../components/Day';
@@ -121,6 +122,12 @@ const DaysData: DaysProps[] = [
     link: '-1217-round-profile-pics',
     type: PostType.OPINION,
     title: 'Round profile pics',
+  },
+  {
+    preview: Eighteen,
+    link: '-1218-react-native',
+    type: PostType.NEW,
+    title: 'React Native',
   },
 ];
 
