@@ -16,6 +16,7 @@ import Fifteen from '../components/days/Fifteen';
 import Sixteen from '../components/days/Sixteen';
 import Seventeen from '../components/days/Seventeen';
 import Eighteen from '../components/days/Eighteen';
+import Nineteen from '../components/days/Nineteen';
 
 import { PostType } from './PostType';
 import { DaysProps } from '../components/Day';
@@ -128,6 +129,12 @@ const DaysData: DaysProps[] = [
     link: '-1218-react-native',
     type: PostType.NEW,
     title: 'React Native',
+  },
+  {
+    preview: Nineteen,
+    link: '-1219-karenyingcom-redesign-part-1',
+    type: PostType.CREATION,
+    title: 'karenying.com redesign (part 1)',
   },
 ];
 
