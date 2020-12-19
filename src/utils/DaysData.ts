@@ -84,19 +84,19 @@ const DaysData: DaysProps[] = [
   },
   {
     preview: Eleven,
-    link: '-1211-back-to-top-button-part-1',
+    link: '-1211-back-to-top-button-1',
     type: PostType.CREATION,
-    title: 'Back to top button (part 1)',
+    title: 'Back to top button (1)',
   },
   {
     preview: Twelve,
-    link: '%EF%B8%8F-1212-back-to-top-button-part-2',
+    link: '%EF%B8%8F-1212-back-to-top-button-2',
     type: PostType.FIX,
-    title: 'Back to top button (part 2)',
+    title: 'Back to top button (2)',
   },
   {
     preview: Thirteen,
-    link: '%EF%B8%8F-1212-back-to-top-button-part-2',
+    link: '%EF%B8%8F-1213-gatsby-plugin-to-calculate-reading-time',
     type: PostType.FIX,
     title: 'Gatsby plugin to calculate reading time',
   },
@@ -132,9 +132,9 @@ const DaysData: DaysProps[] = [
   },
   {
     preview: Nineteen,
-    link: '-1219-karenyingcom-redesign-part-1',
+    link: '-1219-karenyingcom-redesign-1',
     type: PostType.CREATION,
-    title: 'karenying.com redesign (part 1)',
+    title: 'karenying.com redesign (1)',
   },
 ];
 
