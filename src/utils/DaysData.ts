@@ -17,6 +17,7 @@ import Sixteen from '../components/days/Sixteen';
 import Seventeen from '../components/days/Seventeen';
 import Eighteen from '../components/days/Eighteen';
 import Nineteen from '../components/days/Nineteen';
+import Twenty from '../components/days/Twenty';
 
 import { PostType } from './PostType';
 import { DaysProps } from '../components/Day';
@@ -135,6 +136,12 @@ const DaysData: DaysProps[] = [
     link: '-1219-karenyingcom-redesign-1',
     type: PostType.CREATION,
     title: 'karenying.com redesign (1)',
+  },
+  {
+    preview: Twenty,
+    link: '-1220-karenyingcom-redesign-2',
+    type: PostType.CREATION,
+    title: 'karenying.com redesign (2)',
   },
 ];
 
