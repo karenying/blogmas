@@ -1,4 +1,4 @@
-import design from '../../assets/karenying-design-2.jpg';
+import design from '../../assets/karenying-design-2.png';
 
 import '../../styles/days.scss';
 
