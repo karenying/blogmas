@@ -10,6 +10,7 @@ const App = () => (
       href='https://blog.karenying.com/posts/blogmas-2020'
       target='_blank'
       rel='noreferrer'
+      className='title-link'
     >
       <div className='title'>
         bl

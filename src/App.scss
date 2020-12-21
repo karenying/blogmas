@@ -23,15 +23,6 @@
   color: $color-pink-light;
 }
 
-a {
-  text-decoration: none;
-  transition: text-shadow 100ms;
-
-  &:hover {
-    text-shadow: 10px 10px 10px black;
-  }
-}
-
 .title {
   color: $color-white-almost;
   font-family: 'Varela Round';
@@ -40,6 +31,15 @@ a {
 
   &-year {
     font-family: 'Ubuntu Mono';
+  }
+
+  &-link {
+    text-decoration: none;
+    transition: text-shadow 100ms;
+
+    &:hover {
+      text-shadow: 10px 10px 10px black;
+    }
   }
 }
 
