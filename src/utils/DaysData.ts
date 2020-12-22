@@ -19,6 +19,7 @@ import Eighteen from '../components/days/Eighteen';
 import Nineteen from '../components/days/Nineteen';
 import Twenty from '../components/days/Twenty';
 import TwentyOne from '../components/days/TwentyOne';
+import TwentyTwo from '../components/days/TwentyTwo';
 
 import { PostType } from './PostType';
 import { DaysProps } from '../components/Day';
@@ -149,6 +150,12 @@ const DaysData: DaysProps[] = [
     link: '%EF%B8%8F-1221-progressive-image-loader',
     type: PostType.FIX,
     title: 'Progressive image loader',
+  },
+  {
+    preview: TwentyTwo,
+    link: '-1222-quarantine-running-recap',
+    type: PostType.CREATION,
+    title: 'Quarantine running recap',
   },
 ];
 
