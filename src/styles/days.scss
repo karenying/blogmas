@@ -14,6 +14,17 @@
   }
 }
 
+.small-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+
 .rounded {
   img {
     border-radius: 5px;
