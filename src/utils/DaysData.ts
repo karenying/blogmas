@@ -21,6 +21,8 @@ import Twenty from '../components/days/Twenty';
 import TwentyOne from '../components/days/TwentyOne';
 import TwentyTwo from '../components/days/TwentyTwo';
 
+import TwentyFive from '../components/days/TwentyFive';
+
 import { PostType } from './PostType';
 import { DaysProps } from '../components/Day';
 
@@ -156,6 +158,12 @@ const DaysData: DaysProps[] = [
     link: '-1222-quarantine-running-recap',
     type: PostType.CREATION,
     title: 'Quarantine running recap',
+  },
+  {
+    preview: TwentyFive,
+    link: '',
+    type: PostType.CONFETTI,
+    title: 'Last day',
   },
 ];
 

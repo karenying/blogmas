@@ -4,7 +4,7 @@ import '../../styles/days.scss';
 
 const TwentyTwo = () => (
   <div className='days full-image rounded'>
-    <img src={running} alt='neural net' />
+    <img src={running} alt='running' />
   </div>
 );
 

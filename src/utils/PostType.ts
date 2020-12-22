@@ -3,4 +3,5 @@ export enum PostType {
   CREATION = '🎨',
   NEW = '📚',
   OPINION = '🤔',
+  CONFETTI = '🎊',
 }
