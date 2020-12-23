@@ -20,6 +20,7 @@ import Nineteen from '../components/days/Nineteen';
 import Twenty from '../components/days/Twenty';
 import TwentyOne from '../components/days/TwentyOne';
 import TwentyTwo from '../components/days/TwentyTwo';
+import TwentyThree from '../components/days/TwentyThree';
 
 import TwentyFive from '../components/days/TwentyFive';
 
@@ -158,6 +159,12 @@ const DaysData: DaysProps[] = [
     link: '-1222-quarantine-running-recap',
     type: PostType.CREATION,
     title: 'Quarantine running recap',
+  },
+  {
+    preview: TwentyThree,
+    link: '-1223-redux',
+    type: PostType.NEW,
+    title: 'Redux',
   },
   {
     preview: TwentyFive,
