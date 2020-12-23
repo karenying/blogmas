@@ -162,9 +162,9 @@ const DaysData: DaysProps[] = [
   },
   {
     preview: TwentyThree,
-    link: '-1223-redux',
+    link: '-1223-react-redux',
     type: PostType.NEW,
-    title: 'Redux',
+    title: 'React Redux',
   },
   {
     preview: TwentyFive,
