@@ -21,6 +21,7 @@ import Twenty from '../components/days/Twenty';
 import TwentyOne from '../components/days/TwentyOne';
 import TwentyTwo from '../components/days/TwentyTwo';
 import TwentyThree from '../components/days/TwentyThree';
+import TwentyFour from '../components/days/TwentyFour';
 
 import TwentyFive from '../components/days/TwentyFive';
 
@@ -165,6 +166,12 @@ const DaysData: DaysProps[] = [
     link: '-1223-react-redux',
     type: PostType.NEW,
     title: 'React Redux',
+  },
+  {
+    preview: TwentyFour,
+    link: '%EF%B8%8F-1224-keyboard-shortcuts',
+    type: PostType.FIX,
+    title: 'Keyboard shortcuts',
   },
   {
     preview: TwentyFive,
