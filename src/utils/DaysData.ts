@@ -22,7 +22,6 @@ import TwentyOne from '../components/days/TwentyOne';
 import TwentyTwo from '../components/days/TwentyTwo';
 import TwentyThree from '../components/days/TwentyThree';
 import TwentyFour from '../components/days/TwentyFour';
-
 import TwentyFive from '../components/days/TwentyFive';
 
 import { PostType } from './PostType';
@@ -175,9 +174,9 @@ const DaysData: DaysProps[] = [
   },
   {
     preview: TwentyFive,
-    link: '',
+    link: '-1225-blogmas-recap',
     type: PostType.CONFETTI,
-    title: 'Last day',
+    title: 'Blogmas recap',
   },
 ];
 
