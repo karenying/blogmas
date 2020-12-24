@@ -38,17 +38,14 @@ const App = () => (
       ))}
 
       <div className='empty'></div>
-      <div className='about'>
-        <a
-          href='https://blog.karenying.com/posts/blogmas-2020'
-          target='_blank'
-          rel='noreferrer'
-          className='about'
-        >
-          about
-        </a>
-      </div>
-
+      <a
+        href='https://blog.karenying.com/posts/blogmas-2020'
+        target='_blank'
+        rel='noreferrer'
+        className='about'
+      >
+        about
+      </a>
       {DaysData.map((data, i) => (
         <Day {...data} day={i + 1} />
       ))}
