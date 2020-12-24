@@ -38,7 +38,7 @@ const App = () => (
       ))}
 
       <div className='empty'></div>
-      <div className='Day about'>
+      <div className='about'>
         <a
           href='https://blog.karenying.com/posts/blogmas-2020'
           target='_blank'

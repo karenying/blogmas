@@ -67,6 +67,9 @@
   text-decoration: none;
   font-weight: bold;
   transition: text-shadow 100ms;
+  width: 127px;
+  height: 127px;
+  margin: 6px;
 
   &:hover {
     text-shadow: 10px 10px 10px black;
