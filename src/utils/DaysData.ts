@@ -174,9 +174,9 @@ const DaysData: DaysProps[] = [
   },
   {
     preview: TwentyFive,
-    link: '-1225-blogmas-recap',
+    link: '-1225-finale',
     type: PostType.CONFETTI,
-    title: 'Blogmas recap',
+    title: 'Finale',
   },
 ];
 
